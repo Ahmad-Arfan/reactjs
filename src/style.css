@@ -1,0 +1,97 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding-top: 1rem;
+  margin-left: 10rem;
+}
+
+.dropzone {
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 20px;
+  cursor: pointer;
+  height: 150px;
+  width: 400px;
+  border: 2px dashed cyan;
+  outline: none;
+}
+
+.dropzoneReject {
+  border: 2px dashed red;
+}
+
+.dropzoneAccept {
+  border: 2px dashed green;
+}
+
+.Form {
+  max-width: 800px;
+  width: 100%;
+  display: table;
+  margin: 0 auto;
+  padding: 20px 50px;
+}
+.Card {
+  width: 15rem;
+  margin-top: 1rem;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+}
+
+.flex > div {
+  margin: 0 1rem 2rem 1rem;
+  text-align: center;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.pagination {
+  margin: 15px auto;
+  display: flex;
+  list-style: none;
+  outline: none;
+}
+.pagination > .active > a {
+  background-color: #47ccde;
+  border-color: #47ccde;
+  color: #fff;
+}
+.pagination > li > a {
+  border: 1px solid #47ccde;
+  padding: 5px 10px;
+  outline: none;
+  cursor: pointer;
+}
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+  background-color: #47ccde;
+  border-color: #47ccde;
+  outline: none;
+}
+.pagination > li > a,
+.pagination > li > span {
+  color: #47ccde;
+}
+.pagination > li:first-child > a,
+.pagination > li:first-child > span,
+.pagination > li:last-child > a,
+.pagination > li:last-child > span {
+  border-radius: unset;
+}
